@@ -1,0 +1,10 @@
+tensorflow-gpu==1.13.1
+Flask
+attrdict
+eventlet
+python-socketio
+numpy
+Pillow
+scipy
+keras
+h5py

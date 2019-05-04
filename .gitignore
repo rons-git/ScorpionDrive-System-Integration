@@ -1,0 +1,10 @@
+*.py[cod]
+
+build
+devel
+
+*.h5
+
+profile.tmp
+
+venv
