@@ -1,9 +1,9 @@
 *.py[cod]
+*.h5
+*.deb
 
 build
 devel
-
-*.h5
 
 profile.tmp
 

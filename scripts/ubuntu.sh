@@ -1,6 +1,5 @@
 set -x
 cd ..
-dir
 echo "Building the environment"
 cd ros
 catkin_make
