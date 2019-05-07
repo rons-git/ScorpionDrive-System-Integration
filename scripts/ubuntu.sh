@@ -1,8 +1,13 @@
-set -x
+set -ex
 cd ..
-echo "Building the environment"
 cd ros
+source /devel/setup.bash
+echo "Building the environment"
 catkin_make
-source devel/setup.sh
+echo "Running roscore"
+roscore &
+sleep 5
 echo "Launching the nodes"
-roslaunch launch/styx.launch
+roslaunch /capstone/ros/launch/styx.launch &
+sleep 15
+read -p "Press enter to exit"
