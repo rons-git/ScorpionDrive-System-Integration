@@ -2,8 +2,8 @@
 *.h5
 *.deb
 
-build
-devel
+#build
+#devel
 
 profile.tmp
 
