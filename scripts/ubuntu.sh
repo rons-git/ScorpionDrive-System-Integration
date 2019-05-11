@@ -1,7 +1,7 @@
 set -ex
 cd ..
 cd ros
-source /devel/setup.bash
+source devel/setup.bash
 echo "Building the environment"
 catkin_make
 echo "Running roscore"
